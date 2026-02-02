@@ -1,7 +1,7 @@
 -- Aurora UI Library 完整使用示例
 -- 展示所有功能和组件的使用方法
 
-local Aurora = require(script.Aurora)
+local Aurora = loadstring(game:HttpGet("https://raw.githubusercontent.com/catminetry/Aurora/refs/heads/main/Aurora.lua"))()
 
 -- 初始化 UI 系统
 local ui = Aurora:Init({
